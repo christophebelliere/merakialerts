@@ -17,7 +17,7 @@ Telegram_API_Key=xxxxxxxxx:xxxxxxxxx \
 Telegram_Channel_ID=123456789 \
 npm start
 ```
-By default the  app listens for connections on port 3000. You can set a 'PORT=80' to the npm start string if needed, however I highly suggest using a reverse proxy like nginx or Caddy to enable HTTPS.
+By default the  app listens for connections on port 3000. You can set a 'PORT=80' to the npm start string if needed, however I highly suggest using a reverse proxy like nginx, traefik or Caddy to enable HTTPS.
 
 Meraki_Secret is mandatory. \
 Must set at least one service to use. All can be used at the same time.
