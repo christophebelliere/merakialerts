@@ -1,9 +1,11 @@
 # Description
+This project is based on crackfarmer/merakialerts project.
 This nodejs app takes incoming Meraki Alert webhooks, and sends the alert information to Slack, Microsoft Teams, Discord, or Telegram.
+I will add other services like webex teams, OVH SMS and....
 
 # Running
 ```
-git clone https://github.com/crackfarmer/merakialerts
+git clone https://github.com/christophebelliere/merakialerts
 cd merakialerts
 npm install
 
@@ -29,4 +31,4 @@ In Meraki dashboard need to setup a webhook for https://your.reverse.proxy
 + In Telegram, create a bot, join bot to channel, get channel ID. Use API key of bot for Telegram_API_Key, and channel ID for Telegram_Channel_ID.   [Check Telegram Docs](https://core.telegram.org/bots)
 
 # Docker Container
-[Docker Hub](https://hub.docker.com/r/crackfarmer/merakialerts)
+coming soon
