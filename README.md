@@ -1,7 +1,7 @@
 # Description
 This project is based on crackfarmer/merakialerts project.
 This nodejs app takes incoming Meraki Alert webhooks, and sends the alert information to Slack, Microsoft Teams, Discord, or Telegram.
-I will add other services like webex teams, OVH SMS and....
+I will add other services like webex teams, SMS, Whatsapp ....
 
 # Running
 ```
